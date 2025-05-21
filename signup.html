@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h2 class="logo">FINDING OUT</h2>
+    <nav class="nav">
+     <a href="trying.html">Home</a>
+     <a href="about.html">About</a>     
+     <a href="services.html">Services</a>
+     <a href="contact.html">Contact</a>
+     <button class="btnlogin-popup" onclick="window.location.href='signup.html'">Sign-up</button>
+</header>
+ 
+<nav>
+  <div class="wrapper">
+  <form action="signup_process.php" method="post">
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="confirm">Confirm Password:</label><br>
+    <input type="password" id="confirm" name="confirm_password" required><br><br>
+
+    
+    <nav class="nav">
+
+      <button class="btnlogin-popup" onclick="window.location.href='trying.html'">Sign up</button>
+    
+    </nav>
+  </form>
+  </div>
+
+</nav>
+ 
+
+</body>
+</html>
